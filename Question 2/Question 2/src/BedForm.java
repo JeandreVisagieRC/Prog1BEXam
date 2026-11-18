@@ -22,6 +22,7 @@ public class BedForm extends JFrame {
         txaReport.setEditable(false);
         
         JPanel form = new JPanel (new GridLayout(4,2,5,8));
-        form.add(new JLabel)
+        form.add(new JLabel("NAME:"));
+        form.add(cmbName);
     }
 }
